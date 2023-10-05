@@ -1,0 +1,6 @@
+.box{
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aqua;
+    width: 50%;
+}
