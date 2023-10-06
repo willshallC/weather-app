@@ -21,7 +21,7 @@ const Tempapp = () => {
             <div className="box">
                 <h1>Weather App</h1>
                 <div className="inputData">
-                    <input type="search" placeholder="City" className="inputFeild" onChange={(e)=>setSearch(e.target.value)}/>
+                    <input type="search" placeholder="City" className="inputField" onChange={(e)=>setSearch(e.target.value)}/>
                     
                 </div>
                 {
@@ -32,9 +32,12 @@ const Tempapp = () => {
                             <h1 className="temp">{city.temp}&#xb0;C</h1>
                             <h3 className="tempmin_max">Min: {city.temp_min}&#xb0;C | Max: {city.temp_max}&#xb0;C</h3>
                             <h3>Feels like: {city.feels_like}&#xb0;C</h3>
-                            <div className="wave-one"></div>
-                            <div className="wave-two"></div>
-                            <div className="wave-three"></div>
+                            <div className="ocean">
+                                <div className="wave"></div>
+                                <div className="wave"></div>
+                                
+                            </div>
+                            
                         </div>
                     )
                 }
