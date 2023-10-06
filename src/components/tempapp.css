@@ -1,6 +1,36 @@
-.box{
+body{
+    background: #f3f2ef;
+    display: flex;
     justify-content: center;
-    margin: 0 auto;
-    background-color: aqua;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+html{
+    font-size: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+.box{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+
+}
+
+.inputFeild{
     width: 50%;
+    margin: auto;
+    border: 5rem;
+    padding: 1rem 1rem;
+    outline:  none;
+    font-size: 1.5rem;
+}
+.errroMsg{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
 }
